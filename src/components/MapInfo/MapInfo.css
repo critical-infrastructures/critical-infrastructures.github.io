@@ -1,0 +1,112 @@
+/* settings saved here for window */
+:root{
+    --expandContentWidth: 300px;
+    --handleWidth: 20px;
+    --expandPanelWidth: 320px;
+}
+
+
+.MapInfo{
+    position:absolute;
+    top:30vh;
+    left:.5vw;
+    z-index: 999;
+    /* box-shadow: gray 10px 10px; */
+    /* border: 1px blue solid; */
+}
+
+.MapInfo.expanded{
+    width:var(--expandPanelWidth);
+}
+
+.MapInfo.minimized{
+    width:50px;
+    border-radius: 0px 30% 30% 0px;
+    box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.43);
+}
+
+.drag-handle{
+    display:flex;
+    height:30px;
+    justify-content: center;
+    align-items: center;
+}
+.expanded .drag-handle{
+    /* position: absolute; */
+    top:0px;
+    left: 0px;
+}
+.minimized .drag-handle{
+    width:30px;
+}
+
+.content-header{
+    /* background-color: rgb(54, 170, 224); */
+    background-color: #3344dd;
+    color:white;
+    font-size:14px;
+}
+
+
+.expanded .content-header{
+    width:var(--expandContentWidth);
+    height:30px;
+    border-radius: 3px 0px 0px 0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main-content{
+    border:rgba(189, 183, 183, 0.514) solid .2px;
+    background-color: white;
+    padding: 0 0.5%;
+    min-height:30px;
+    box-shadow: 3px 3px 15px 2px rgba(0,0,0,0.43);
+}
+
+.expanded .main-content{
+    width:var(--expandContentWidth);
+    min-width:50px;
+    border-radius: 0px 0px 3px 3px;
+}
+.minimized .main-content{
+    border-radius: 3px 0px 0px 3px;
+    width: 30px;
+    height:30px;
+}
+
+
+/* .one-point:hover{
+    cursor:pointer
+} */
+
+.btn-notch{
+    position:absolute;
+    top:0;
+    right:0;
+    width:var(--handleWidth);
+    height:30px;
+    border:rgba(189, 183, 183, 0.514) solid .2px;
+    border-radius: 0px 30% 30% 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index:99;
+    box-shadow: 8px 3px 7px 2px rgba(0,0,0,0.43);
+}
+
+.btn-notch:hover{
+    cursor: pointer;
+}
+
+
+.content-panels{
+    max-height:60vh;
+    overflow-x:hidden;
+    /* scrollbar-width: none; */
+    overflow-y:scroll;
+}
+

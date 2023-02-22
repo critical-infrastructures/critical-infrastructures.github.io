@@ -1,0 +1,12 @@
+/* #map{
+    width:100vw;
+} */
+
+.invisible {
+    display:none;
+}
+
+path{
+    -webkit-user-select: none !important; /* disable selection/Copy of UIWebView */
+    -webkit-touch-callout: none !important; /* disable the IOS popup when long-press on a link */
+}    

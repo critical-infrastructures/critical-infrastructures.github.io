@@ -1,0 +1,12 @@
+.vertical-checkbox-btn{
+    display:flex;
+    flex-direction: column;
+}
+
+.vertical-checkbox-btn span:nth-child(2){
+    /* display:none; */
+    /* position:absolute;
+    left:30px; */
+    border:1px black solid;
+    color:red;
+}

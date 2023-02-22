@@ -1,0 +1,9 @@
+
+.one-point .ant-collapse{
+    font-size: 10px;
+}
+
+
+.ant-collapse-content > .ant-collapse-content-box {
+    padding: 0 5px;
+}
