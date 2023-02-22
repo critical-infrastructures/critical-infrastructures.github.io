@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.edc5d4d7.css",
+    "main.js": "./static/js/main.45321bef.js",
+    "static/media/correlation_heatmap2.PNG": "./static/media/correlation_heatmap2.0fc4a2462c1101d3f102.PNG",
+    "static/media/precipitation_violin.PNG": "./static/media/precipitation_violin.89b1357d00fe2f4b9ebc.PNG",
+    "static/media/elevation_violin.PNG": "./static/media/elevation_violin.3f182781bef176dd587c.PNG",
+    "static/media/PRECIPITATION_VERSUS_LANDSLIDE_OUTLIERS_YES.PNG": "./static/media/PRECIPITATION_VERSUS_LANDSLIDE_OUTLIERS_YES.8e441632924f79ccbc62.PNG",
+    "static/media/violin_slope.PNG": "./static/media/violin_slope.c1e6b9fba5acdfcc4b45.PNG",
+    "static/media/ELEVATION600.PNG": "./static/media/ELEVATION600.f5d5017b901738d276b2.PNG",
+    "static/media/slope.PNG": "./static/media/slope.31cb265266a7dc30a19d.PNG",
+    "static/media/energy_violin.PNG": "./static/media/energy_violin.8c8425ff2b05524dbaba.PNG",
+    "static/media/EARTHQUAKE_MAGNITUDE.PNG": "./static/media/EARTHQUAKE_MAGNITUDE.a4dfbaac15cdaa8710d3.PNG",
+    "static/media/elevation300.PNG": "./static/media/elevation300.22d0ad35a75b6c7987b2.PNG",
+    "static/media/energy.PNG": "./static/media/energy.ff1a2b54f3638e75df1d.PNG",
+    "static/media/precipitation.PNG": "./static/media/precipitation.fe45ca41d9bb5e959be2.PNG",
+    "static/media/PRECIPITATIOM_BOX_PLOT.PNG": "./static/media/PRECIPITATIOM_BOX_PLOT.fc9379c4c54150646d5f.PNG",
+    "static/media/elevation_box_plot.PNG": "./static/media/elevation_box_plot.9c9529263970ca43739c.PNG",
+    "static/media/box_plot_of_slope.PNG": "./static/media/box_plot_of_slope.02bfed1391ddc25e3b27.PNG",
+    "static/media/BOX_PLOT_OF_ENERGY.PNG": "./static/media/BOX_PLOT_OF_ENERGY.d87171c870427029462e.PNG",
+    "index.html": "./index.html",
+    "main.edc5d4d7.css.map": "./static/css/main.edc5d4d7.css.map",
+    "main.45321bef.js.map": "./static/js/main.45321bef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edc5d4d7.css",
+    "static/js/main.45321bef.js"
+  ]
+}
